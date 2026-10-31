@@ -1,6 +1,6 @@
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ВАШ_НИКНЕЙМ&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=zxcteen3seed2М&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ВАШ_НИКНЕЙМ&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=zxcteen3seed2М&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 name: Generate Snake Animation
 
 on:
@@ -29,5 +29,5 @@ jobs:
           target_branch: output
           build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-![Snake animation](https://raw.githubusercontent.com/ВАШ_НИКНЕЙМ/ВАШ_НИКНЕЙМ/output/snake.svg)
+          GITHUB_TOKEN: ${{ secrets.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 }}
+![Snake animation](https://raw.githubusercontent.com/zxcteen3seed2/zxcteen3seed2/output/snake.svg)

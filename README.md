@@ -30,3 +30,4 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+![Snake animation](https://raw.githubusercontent.com/ВАШ_НИКНЕЙМ/ВАШ_НИКНЕЙМ/output/snake.svg)

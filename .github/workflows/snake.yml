@@ -1,16 +1,16 @@
-.github/workflows/snake.yml
 name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Обновление раз в день
-  workflow_dispatch: # Возможность запустить вручную
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -29,4 +29,4 @@ jobs:
           target_branch: output
           build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.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 }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
